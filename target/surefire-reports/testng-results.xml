@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation" duration-ms="49215" started-at="2021-01-29T23:10:29 IST" finished-at="2021-01-29T23:11:19 IST">
+    <groups>
+    </groups>
+    <test name="Amazon application Test" duration-ms="49215" started-at="2021-01-29T23:10:29 IST" finished-at="2021-01-29T23:11:19 IST">
+      <class name="com.qa.selenium.testscripts.TC_AmazonSeachTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.selenium.testscripts.TC_AmazonSeachTest_001@8909f18]" name="setUp" is-config="true" duration-ms="15071" started-at="2021-01-29T23:10:30 IST" finished-at="2021-01-29T23:10:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchItem(java.lang.String, java.lang.String)[pri:0, instance:com.qa.selenium.testscripts.TC_AmazonSeachTest_001@8909f18]" name="searchItem" duration-ms="7644" started-at="2021-01-29T23:10:50 IST" data-provider="DataSource" finished-at="2021-01-29T23:10:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Da vinci code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="searchItem(java.lang.String, java.lang.String)[pri:0, instance:com.qa.selenium.testscripts.TC_AmazonSeachTest_001@8909f18]" name="searchItem" duration-ms="5304" started-at="2021-01-29T23:10:59 IST" data-provider="DataSource" finished-at="2021-01-29T23:11:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wooden Tables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="searchItem(java.lang.String, java.lang.String)[pri:0, instance:com.qa.selenium.testscripts.TC_AmazonSeachTest_001@8909f18]" name="searchItem" duration-ms="11742" started-at="2021-01-29T23:11:04 IST" data-provider="DataSource" finished-at="2021-01-29T23:11:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.selenium.testscripts.TC_AmazonSeachTest_001@8909f18]" name="tearDown" is-config="true" duration-ms="2463" started-at="2021-01-29T23:11:16 IST" finished-at="2021-01-29T23:11:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.selenium.testscripts.TC_AmazonSeachTest_001 -->
+    </test> <!-- Amazon application Test -->
+  </suite> <!-- Test Automation -->
+</testng-results>
